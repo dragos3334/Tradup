@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        MobileServiceTable<ToDoItem> mToDoTable = mClient.getTable(ToDoItem.class);
 
     }
 
